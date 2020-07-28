@@ -261,3 +261,208 @@ li {
     height: 20rem;
     margin: 2rem;
   }
+
+  .membership {
+    background-color: var(--second-color);
+    width: 60%;
+    height: 35rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    /* grid-template: repeat(1, 1fr) / 1fr; */
+    justify-content: left;
+  }
+  
+  .membership-head {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--first-color);
+    width: 70%;
+  }
+  
+  .membership-body {
+    margin-top: 2rem;
+    background-color: var(--third-color);
+    height: 5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .membership-btn {
+    margin-top: 2rem;
+    background-color: var(--first-color);
+    height: 3rem;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .membership-footer {
+    margin-top: 1rem;
+    background-color: var(--third-color);
+    height: 2rem;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-1 {
+    transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: var(--level-5);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.article-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20%;
+  width: 100%;
+}
+
+.author-pic {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--fifth-color);
+  border-radius: 1rem;
+  transform: rotate(-10deg);
+}
+
+.author-name {
+  width: 25rem;
+  height: 5rem;
+  background-color: var(--fourth-color);
+}
+
+.article-header {
+  background-color: var(--third-color);
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.article-comment {
+  width: 40%;
+  height: 3rem;
+  background-color: var(--fourth-color);
+  margin-top: 2rem;
+}
+
+.hashtags {
+  width: 60%;
+  height: 2rem;
+  background-color: var(--fifth-color);
+  margin-top: 2rem;
+}
+
+
+.latest-post {
+  width: 95%;
+  margin-top: 12rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  column-gap: 0.6rem;
+  height: 30rem;
+}
+
+.latest-post-1 {
+  background-color: var(--seventh-color);
+}
+
+.latest-post-title {
+  width: 85%;
+  height: 2rem;
+  margin: 2rem;
+  background-color: var(--fourth-color);
+}
+
+.latest-post-author {
+  width: 60%;
+  background-color: var(--fifth-color);
+  height: 1rem;
+  margin: 2rem;
+}
+
+.latest-post-body {
+  width: 85%;
+  background-color: var(--sixth-color);
+  height: 20rem;
+  margin: 2rem;
+}
+
+.membership-1 {
+    background-color: var(--second-color);
+    width: 95%;
+    height: 35rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    /* grid-template: repeat(1, 1fr) / 1fr; */
+    justify-content: center;
+  }
+
+  .membership-head-1 {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--first-color);
+    width: 100%;
+  }
+
+  .latest-articles {
+      background-color: var(--white-color);
+      display: grid;
+      width: auto;
+      height: 4rem;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10rem;
+      text-align: center;
+  }
+
+  .membership-2 {
+    background-color: var(--second-color);
+    width: 100%;
+    height: 45rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    /* grid-template: repeat(1, 1fr) / 1fr; */
+    justify-content: center;
+  }
+
+  .membership-head-2 {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--first-color);
+    width: 100%;
+  }
